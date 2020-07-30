@@ -12,7 +12,7 @@ namespace Assignment_4.Pages
         public string Time { get; set; }
         public void OnGet()
         {
-            Time = DateTime.Today.ToShortTimeString();
+            Time = DateTime.Now.ToShortTimeString();
         }
     }
 }
